@@ -1,0 +1,26 @@
+.chat-container {
+  max-width: 400px;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.chat-box {
+  height: 200px;
+  overflow-y: auto; /* Use auto instead of scroll */
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #f9f9f9;
+}
+
+.warning {
+  color: red;
+}
+
+.info {
+  color: green;
+}
